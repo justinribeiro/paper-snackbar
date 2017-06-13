@@ -96,6 +96,23 @@
      * `paper-snackbar`
      * Providing brief feedback about an operation through a message at the bottom of the screen that is loosely based on the [Material Design spec](https://material.io/guidelines/components/snackbars-toasts.html#).
      *
+     * ## Usage
+     *
+     * `<paper-snackbar>` sits at the top level of your application and listens for a custom event called `paper-snackbar-notify`. The basic steps for using it are:
+     * 1. Find a nice place to put it in your application. I usually choose my top level app element.
+     * 2. Call `paper-snackbar-notify` via `this.dispatchEvent(new CustomEvent('paper-snackbar-notify', ...));`.
+     * 3. Yipee, snackbar shows up!
+     *
+     * ## Styling
+     *
+     * The following custom properties and mixins are available for styling:
+     *
+     * | Custom property               | Description                        | Default   |
+     * | ---                           | ---                                | ---       |
+     * | `--paper-snackbar-background` | Background color to entire element | `#323232` |
+     * | `--paper-snackbar-text`       | Color applied to element text      | `#ffffff` |
+     * | `--paper-snackbar-link`       | Color applied to link element text | `#f4cb1e` |
+     *
      * @customElement
      * @polymer
      * @demo demo/index.html

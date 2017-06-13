@@ -33,22 +33,20 @@ Providing brief feedback about an operation through a message at the bottom of t
     --paper-snackbar-link:           #f4cb1e;
   }
 </style>
-<p>Clicking the button below will trigger the <code>paper-snackbar</code>.</p>
-<button onclick="test()">Click Me!</button>
+<paper-snackbar></paper-snackbar>
+<button onclick="test()">Click Me</button>
 <br><br><br>
 <script>
   function test() {
-
     document.dispatchEvent(new CustomEvent('paper-snackbar-notify', {
         bubbles: true, 
         composed: true,
         detail: { 
           message: 'Hi! I am a paper-snackbar!', 
-          targetTitle: 'Link',
+          targetTitle: 'Magic Link',
           targetUrl: '#'
         }
     }));
-
   }
 </script>
 ```
