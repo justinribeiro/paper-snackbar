@@ -3,6 +3,7 @@
 <link rel="import" href="../polymer/lib/utils/debounce.html">
 <link rel="import" href="../polymer/lib/utils/async.html">
 <link rel="import" href="../paper-button/paper-button.html">
+<link rel="import" href="../font-roboto/roboto.html">
 
 <dom-module id="paper-snackbar">
   <template>
@@ -31,6 +32,8 @@
         transition-property: visibility, -webkit-transform, opacity;
         transition-property: visibility, transform, opacity;
         transition-duration: 0.2s;
+        font-family: 'Roboto', 'Noto', sans-serif;
+        -webkit-font-smoothing: antialiased;
       }
 
       :host(.opened) {
