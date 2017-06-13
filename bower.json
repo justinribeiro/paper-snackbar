@@ -2,6 +2,18 @@
   "name": "paper-snackbar",
   "description": "Providing brief feedback about an operation through a message at the bottom of the screen that is loosely based on the Material Design spec.",
   "main": "paper-snackbar.html",
+  "license": "Apache-2.0",
+  "keywords": [
+    "html",
+    "web-components",
+    "polymer",
+    "polymer2",
+    "paper",
+    "material"
+  ],
+  "authors": [
+    "Justin Ribeiro <justin@justinribeiro.com>"
+  ],
   "dependencies": {
     "polymer": "Polymer/polymer#^2.0.0",
     "paper-button": "PolymerElements/paper-button#^2.0.0"
@@ -13,5 +25,16 @@
   },
   "resolutions": {
     "polymer": "^2.0.0"
-  }
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "../",
+    "test",
+    "tests",
+    "examples",
+    "preview.png",
+    "wct.conf.json"
+  ]
 }
