@@ -2,7 +2,7 @@
   "name": "paper-snackbar",
   "description": "Providing brief feedback about an operation through a message at the bottom of the screen that is loosely based on the Material Design spec.",
   "main": "paper-snackbar.html",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "keywords": [
     "html",
     "web-components",
