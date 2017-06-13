@@ -76,7 +76,7 @@ Presuming you have a lot of forms or elements that just want to send snackbar me
   ```
 3. When you want to use the snackbar, just call `this.paperSnackbarNotify()`:
   ```javascript
-  this.notify('Your record was added.', 'view', '/some/link/you/want');
+  this.paperSnackbarNotify('Your record was added.', 'view', '/some/link/you/want');
   ```
 
 ## Why?
