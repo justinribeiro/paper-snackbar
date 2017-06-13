@@ -38,7 +38,7 @@ Providing brief feedback about an operation through a message at the bottom of t
 <br><br><br>
 <script>
   function test() {
-    
+
     document.dispatchEvent(new CustomEvent('paper-snackbar-notify', {
         bubbles: true, 
         composed: true,
@@ -69,7 +69,7 @@ Presuming you have a lot of forms or elements that just want to send snackbar me
 
 1. Import `paper-snackbar-mixin.html` into your element:
   ```html
-  <link rel="import" href="../bower_components/paper-snackbar/paper-snackbar.html">
+  <link rel="import" href="../bower_components/paper-snackbar/paper-snackbar-mixin.html">
   ```
 2. Extend from PaperSnackbarNotify():
   ```javascript
