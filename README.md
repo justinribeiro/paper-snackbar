@@ -16,7 +16,7 @@ Providing brief feedback about an operation through a message at the bottom of t
 
 <!---
 ```
-<custom-element-demo>
+<custom-element-demo height="250">
   <template>
     <script src="../webcomponentsjs/webcomponents-lite.js"></script>
     <link rel="import" href="paper-snackbar.html">
@@ -33,9 +33,11 @@ Providing brief feedback about an operation through a message at the bottom of t
     --paper-snackbar-link:           #f4cb1e;
   }
 </style>
+
 <paper-snackbar></paper-snackbar>
+
 <button onclick="test()">Click Me</button>
-<br><br><br>
+
 <script>
   function test() {
     document.dispatchEvent(new CustomEvent('paper-snackbar-notify', {
