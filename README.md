@@ -1,5 +1,8 @@
 # \<paper-snackbar\>
 
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/justinribeiro/paper-snackbar)
+
+
 Providing brief feedback about an operation through a message at the bottom of the screen that is loosely based on the [Material Design spec](https://material.io/guidelines/components/snackbars-toasts.html#).
 
 ## Usage
