@@ -82,4 +82,6 @@ Presuming you have a lot of forms or elements that just want to send snackbar me
 
 ## Why?
 
-This is largely based on what was in the Polymer SHOP demo. Then I decided I wanted this more global thing I could just call when shuffling forms in and out, so it got a little API. The it was because I keep recreating this and over again in various ways and I'm really tired of copy and paste.
+This is largely based on what was in the Polymer SHOP demo. Then I decided I wanted this more global thing I could just call when shuffling forms in and out, so it got a little API. Then it was because I keep recreating this and over again in various ways and I'm really tired of copy and paste.
+
+If you're looking for something with less of an opinion and more on the Material spec, you may also want to take a look at [paper-toast](https://www.webcomponents.org/element/PolymerElements/paper-toast).
