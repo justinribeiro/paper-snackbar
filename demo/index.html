@@ -29,10 +29,14 @@
               --paper-snackbar-link:           #f4cb1e;
             }
           </style>
+          
           <paper-snackbar></paper-snackbar>
-          <button onclick="test()">Click Me</button>
+          
+          <button onclick="testAll()">Message + Link</button>
+          <button onclick="testMessage()">Only Message</button>
+          
           <script>
-            function test() {
+            function testAll() {
 
               document.dispatchEvent(new CustomEvent('paper-snackbar-notify', {
                   bubbles: true, 
@@ -45,9 +49,22 @@
               }));
 
             }
+
+            function testMessage() {
+
+              document.dispatchEvent(new CustomEvent('paper-snackbar-notify', {
+                  bubbles: true, 
+                  composed: true,
+                  detail: { 
+                    message: 'Hi! I am a paper-snackbar with only a message!'
+                  }
+              }));
+
+            }
           </script>
         </template>
       </demo-snippet>
+
     </div>
   </body>
 </html>
